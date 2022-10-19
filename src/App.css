@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine") ;  
+ 
+ /* Whole SpellChecker in my Box Model */  
+
+ .container{
+    margin:0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ #root{ 
+     font-size: 15px;
+ } 
+ .container{
+   padding: 30px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-content: center;
+   align-items: center;
+
+   
+
+ } 
+ h2{
+    color: maroon;
+    text-align: right;
+    font-size: 40px;
+    
+ } 
+ .textarea{
+   width:70%;
+   height:200px; 
+   padding:10px; 
+   resize:none;
+   box-shadow: 2px 2px 2px 2px rgba(151, 75, 75, 0.5);
+   border: 0.5px solid maroon;
+   border-radius: 15px;
+   background-color: rgb(212, 201, 201);
+   letter-spacing: 1px;
+   word-spacing: normal;
+   line-height: 1.5;
+ }  
+  
+ .textarea:focus{
+   border: 2px solid blue;
+ } 
+ 
+ button{
+    margin-top: 20px;
+    background-color: rgba(151, 75, 75, 0.5);
+    border-radius: 5px;
+    padding: 5px;
+ } 
+ button:hover,button:focus{
+    background-color: rgb(206, 193, 174);
+ } 
+.highlight{
+  border-bottom: 1px solid red;
+  background-color: rgb(212, 201, 201);
+}  
+p{ 
+
+   display: inline;
+   
+} 
+#corrected{ 
+  border-bottom: 1px solid rgb(212, 201, 201);
+}
+li{
+  list-style: none;
+  margin:4px;
+  border-radius: 3px;
+} 
+li:hover{
+  background-color: rgb(209, 164, 164);
+}
+.contextmenu{
+  width: auto;
+  border-radius: 5px;
+  background-color: white;
+  padding-left: 0.5px;
+
+} 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
